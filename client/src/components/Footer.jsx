@@ -10,7 +10,7 @@ const Footer = () => {
         </p>
         <div className="flex space-x-4 mt-2 sm:mt-0">
           <a
-            href="https://drive.google.com/file/d/1hbHqnvqcnK72u4pNocDAsqloPR2bfgq4/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1Z8HHjv4X613gLAZ5gO_sCU0B1emsQ3QI/view?usp=sharing"
             target="_blank"
             className="hover:text-blue-400"
           >
