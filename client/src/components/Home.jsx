@@ -34,7 +34,7 @@ const Home = () => {
         className="bg-gradient-to-r from-purple-600 to-purple-800 hover:from-purple-700 hover:to-purple-900 
         text-white font-semibold py-4 px-10 rounded-full shadow-xl transition-all duration-300 transform p-3 hover:scale-105"
       >
-        Start a Quiz
+        Generate a Quiz
       </button>
     </div>
   );
