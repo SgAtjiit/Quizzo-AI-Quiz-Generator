@@ -18,9 +18,6 @@ Quizzo is a smart and interactive quiz application powered by Google Gemini AI. 
 - Recharts (for score visualization)
 - React Hot Toast (for notifications)
 
-## 📷 Screenshots
-
-(Add screenshots of quiz page, result screen, etc.)
 
 ## 📦 Setup Instructions
 
