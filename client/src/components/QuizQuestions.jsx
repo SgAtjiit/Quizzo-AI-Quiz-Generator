@@ -120,16 +120,17 @@ const QuizQuestions = () => {
   };
   useEffect(() => {
     if (!topic || !noq || !time) {
-      toast("Don't try to be oversmart!! You will not get Anything Here");
       navigate("/quizForm");
     }
   });
   useEffect(() => {
-    generateQuestions();
+    if (topic && noq && time) {
+      generateQuestions();
+    }
   }, []);
 
   useEffect(() => {
-    if (!loading) {
+    if (!loading && topic && noq && time) {
       const timer = setInterval(() => {
         setSecondsLeft((prev) => {
           if (prev <= 1) {
