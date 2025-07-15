@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+  color: white;
+  font-family: "TikTok Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "slnt" 0, "wdth" 100;
+}
+
+body {
+  background: linear-gradient(to bottom right, #111827, #1f2937, #000000);
+  min-height: 100vh;
+}
+input:-webkit-autofill {
+  box-shadow: 0 0 0px 1000px #1f2937 inset !important;
+  -webkit-text-fill-color: white !important;
+}
