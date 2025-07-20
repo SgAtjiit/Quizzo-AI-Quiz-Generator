@@ -51,8 +51,8 @@ const QuizForm = () => {
           Welcome to Quizzo
         </span>{" "}
         <br />
-        Create a custom quiz by entering a topic and choosing number of
-        questions
+        Create a custom quiz by entering a topic,choosing number of
+        questions and time required to complete the quiz
         <br />
         <span className="text-base text-purple-400">
           (only multiples of 5 allowed)
